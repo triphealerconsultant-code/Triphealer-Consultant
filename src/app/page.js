@@ -13,7 +13,8 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 import { MdSecurity, MdSupportAgent, MdHealthAndSafety } from "react-icons/md";
-import { GiAsianLantern } from "react-icons/gi";
+import { GiAsianLantern, GiBarbarian } from "react-icons/gi";
+
 
 const heroStats = [
   { value: "500+", label: "Successful Placements" },
@@ -112,7 +113,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-flex items-center gap-2 bg-[#0369a1] text-sky-100 text-sm px-4 py-1.5 rounded-full mb-6">
-                <GiArabicanLantern />
+                <GiBarbarian />
                 <span>Trusted Medical Tourism &amp; Manpower Consultant</span>
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">

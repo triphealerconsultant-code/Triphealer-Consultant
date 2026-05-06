@@ -11,7 +11,7 @@ import {
   FaUserCheck,
 } from "react-icons/fa";
 import { MdEngineering, MdBusiness, MdSupportAgent } from "react-icons/md";
-import { GiWelder, GiElectric } from "react-icons/gi";
+import {  GiElectric, GiWorld } from "react-icons/gi";
 
 const workerCategories = [
   {
@@ -217,7 +217,7 @@ export default function RecruitmentPage() {
             </Link>
           </div>
           <div className="bg-[#0c4a6e] text-white rounded-2xl p-8">
-            <GiWelder className="text-5xl text-sky-300 mb-4" />
+            <GiWorld className="text-5xl text-sky-300 mb-4" />
             <h3 className="text-2xl font-bold mb-4">Why Employers Choose Us</h3>
             <ul className="space-y-3">
               {[
